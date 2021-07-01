@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,100&display=swap');
+ 
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Regular.ttf);
+}
+
+.text {
+    font-family: 'Poppins';
+}
+
+#inputStyled {
+margin-top: 236px;
+border-top: none;
+border-left: none;
+border-right: none;
+width: 683px;
+background-color: transparent;
+outline: 0;
+height: 48px;
+color:#6A6879;
+}
+#inputStyled:focus{
+box-shadow:0 4px 0 0 #15F7D9;
+}#inputStyled::-webkit-input-placeholder{
+    font-size:32px;
+    font-style: bold;
+    font-weight: 600;
+}
+
+#inputIncorrect{
+  margin-top: 236px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 683px;
+    background-color: transparent;
+    outline: 0;
+    height: 48px;
+    color:#FF2358;
+
+}
+#inputIncorrect::-webkit-input-placeholder{
+    font-size:32px;
+    font-style: bold;
+    font-weight: 600;
+    color:#FF2358;
+}
+
+#hidden{
+visibility: hidden;
+}
+
+#not_hidden{
+visibility: visible;
+font-family: 'Poppins';
+color:#FF2358;
+}
+
+#handleInput{
+background-color:#201F26;
+width: 900px;
+position: fixed;
+bottom: 0;
+height: 100px;
+border-radius: 20px;
+margin-bottom: -15px;
+color:#777584;
+display: flex;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+#handleInputValue{
+    background: linear-gradient(360deg, #FFDA15 0%, #FFA215 102.09%);
+    width: 900px;
+    position: fixed;
+    bottom: 0;
+    height: 100px;
+    border-radius: 20px;
+    margin-bottom: -15px;
+    color:#131218;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#p_notHidden{
+    visibility: visible;
+}
+#boxHabilityUp {
+    background: linear-gradient(360deg, #FFDA15 0%, #FFA215 102.09%);
+   height: 74px;
+   cursor: pointer;
+    color:#131218;
+   
+   border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+
+    font-size: 24px;
+}
